@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ /* Styles for Navbar */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers the nav items */
+  align-items: center; /* Aligns items vertically */
+  padding: 0 50px;
+}
+
+/* Styles for the Heading */
+.navbar h1 {
+  text-align: start; /* Align heading to the start (left) */
+  margin-right: auto; /* Push the heading to the far left */
+}
+
+/* Styles for Navigation List */
+.nav-list {
+  list-style: none; /* Removes bullet points */
+  display: flex; /* Makes list items horizontal */
+  gap: 20px; /* Adds space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark text color */
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: #ff4081; /* Highlight color when hovering */
+}
+
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fce4ec;
+  }
+  
+  .intro {
+    max-width: 50%;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    margin-bottom: 20px;
+  }
+  
+  .resume-btn a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 100%; /* Ensures it takes up the button space */
+  }
+  
+  .resume-btn {
+    background-color: #ff4081;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resume-btn:hover {
+    background-color: #e91e63;
+  }
+  
+  
+  .profile-pic img {
+    width: 400px;
+    height: 300px;
+    border-radius:50%;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .contact p{
+    margin-bottom: 20px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
