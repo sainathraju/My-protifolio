@@ -101,7 +101,7 @@
   /*About me section*/
 
 .about-me {
-    background: linear-gradient(135deg, #007BFF, #6C63FF); /* Gradient background */
+    background: linear-gradient(135deg, #c50aa9, #da0d99); /* Gradient background */
     color: white;
     padding: 50px 20px;
 }
@@ -124,11 +124,6 @@
     margin-right: 20px;
 }
 
-  h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-}
-
 p {
     font-size: 1.1em;
     margin-bottom: 15px;
@@ -147,11 +142,7 @@ p {
     flex-wrap: wrap; /* Ensure it wraps on smaller screens */
 }
 
-h2 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 15px;
-}
+
 
 .education-content {
   max-height: 200px; /* Limit the height */
@@ -201,12 +192,16 @@ h2 {
   }
   /*skills Section*/
   .skills {
-    background: #f9f9f9;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Wider container */
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); /* Transparent box */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
 }
 
 h2 {
@@ -217,7 +212,7 @@ h2 {
 
 ul {
     list-style-type: disc; /* Default bullet style */
-    padding-left: 20px; /* Indent bullets */
+    padding-left: 10px; /* Indent bullets */
     color: #333;
 }
 
@@ -228,4 +223,43 @@ li {
 
 strong {
     color: #0e0c0d; /* Highlight category name */
+}
+.projects{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Wider container */
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1); /* Transparent box */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap; 
+}
+
+h3 {
+  color: #e01aa5;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #111213; /* Highlight important tech stack */
+}    
+.certifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Wider container */
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1); /* Transparent box */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap; 
+}
+
+.certification-item img {
+  width: 300px;
+  height: 300px;
 }
