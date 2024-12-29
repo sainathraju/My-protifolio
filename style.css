@@ -60,7 +60,7 @@
   }
   
   .intro {
-    max-width: 50%;
+    max-width: 100%;
   }
   
   .intro h1 {
@@ -94,9 +94,9 @@
   
   
   .profile-pic img {
-    width: 400px;
-    height: 300px;
-    border-radius:50%;
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
   }
   /*About me section*/
 
@@ -120,7 +120,7 @@
 }
 
 .text-content {
-    flex: 1; /* Occupies available space */
+    flex: 1;  
     margin-right: 20px;
 }
 
@@ -143,8 +143,8 @@ p {
 }
 
 .education-content {
-  max-height: 150px; /* Limit the height */
-  overflow-y: auto; /* Enable vertical scroll */
+  max-height: 200px; 
+  overflow-y: auto; 
   padding-right: 25px;
 }
 
@@ -263,4 +263,43 @@ h3 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #cc0ba2;
+}
+
+.footer p {
+  margin: 5px 0;
 }
