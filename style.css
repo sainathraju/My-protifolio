@@ -101,7 +101,7 @@
   /*About me section*/
 
 .about-me {
-    background: linear-gradient(135deg, #c50aa9, #da0d99); /* Gradient background */
+    background: linear-gradient(135deg, #e410a5, #e91e63); /* Gradient background */
     color: white;
     padding: 50px 20px;
 }
@@ -110,13 +110,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Wider container */
+    max-width: 100%; /* Wider container */
     margin: auto;
     background: rgba(255, 255, 255, 0.1); /* Transparent box */
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+    flex-wrap: wrap;  
 }
 
 .text-content {
@@ -130,10 +130,10 @@ p {
 }
 
 .education-section {
-  display: flex;
+  display: flexbox;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Wider container */
+    max-width: 100%; /* Wider container */
     margin: auto;
     background: rgba(255, 255, 255, 0.1); /* Transparent box */
     border-radius: 15px;
@@ -145,7 +145,7 @@ p {
 .education-content {
   max-height: 150px; /* Limit the height */
   overflow-y: auto; /* Enable vertical scroll */
-  padding-right: 25px; /* Add some space for the scrollbar */
+  padding-right: 25px;
 }
 
 .education-content::-webkit-scrollbar {
@@ -190,10 +190,10 @@ p {
   }
   /*skills Section*/
   .skills {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Wider container */
+    max-width:100%; /* Wider container */
     margin: auto;
     background: rgba(255, 255, 255, 0.1); /* Transparent box */
     border-radius: 15px;
@@ -223,10 +223,10 @@ strong {
     color: #0e0c0d; /* Highlight category name */
 }
 .projects{
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Wider container */
+  max-width: 100%; /* Wider container */
   margin: auto;
   background: rgba(255, 255, 255, 0.1); /* Transparent box */
   border-radius: 15px;
@@ -248,7 +248,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Wider container */
+  max-width: 100%; /* Wider container */
   margin: auto;
   background: rgba(255, 255, 255, 0.1); /* Transparent box */
   border-radius: 15px;
